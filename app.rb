@@ -8,6 +8,6 @@ class App < Sinatra::Base
   
   post '/piglatinize' do
     @user_phrase = user_phrase
-    @user_phrase.
+    @user_phrase.piglatinize
   end
 end
