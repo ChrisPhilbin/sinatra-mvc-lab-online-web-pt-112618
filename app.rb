@@ -6,7 +6,7 @@ class App < Sinatra::Base
     erb :user_input
   end
   
-  get '/' do
+  get '/piglatinize' do
     
   end
 end
